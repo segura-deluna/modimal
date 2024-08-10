@@ -1,0 +1,97 @@
+.card {
+  position: relative;
+
+  &__fav-btn {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+  }
+
+  &__picture {
+  }
+
+  &__img {
+  }
+
+  &__body {
+    padding: 6px 8px;
+    display: grid;
+    gap: 8px;
+  }
+
+  &__title {
+    font-family: $font-family;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    text-transform: capitalize;
+    color: $black;
+  }
+
+  &__cols {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__desc {
+    font-family: $font-family;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+    text-transform: capitalize;
+    color: $black;
+  }
+
+  &__price {
+    font-family: $font-family;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    text-transform: capitalize;
+    color: $black;
+  }
+
+  &__colors {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+  }
+}
+
+.color {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.color--black {
+  background-color: $black;
+}
+
+.color--blue {
+  background-color: #7dc3eb;
+}
+
+.color--green {
+  background-color: $primary;
+}
+
+.color--navy {
+  background-color: #34495e;
+}
+
+.color--olive {
+  background-color: #87aa9d;
+}
+
+.color--pink {
+  background-color: #f08a9d;
+}
+
+.color--white {
+  background-color: $white;
+  border: 1px solid $black;
+}

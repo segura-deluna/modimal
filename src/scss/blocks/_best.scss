@@ -1,0 +1,14 @@
+.best {
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+  }
+
+  &__btn {
+    padding: 16px 0px 16px 16px;
+    width: 102px;
+    height: 40px;
+  }
+}

@@ -1,0 +1,17 @@
+.btn,
+a.btn {
+  display: inline-block;
+  width: 184px;
+  height: 40px;
+  background: $white;
+
+  font-family: $font-family;
+  font-weight: 400;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+
+  color: $black;
+}

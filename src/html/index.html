@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Modimal</title>
+    <link href="./css/main.css" rel="stylesheet" />
+
+    <link href="./img/favicons/favicon.svg" rel="icon" type="image/x-icon" />
+    <link
+      href="./img/favicons/apple-touch-icon.png"
+      rel="apple-touch-icon"
+      sizes="180x180"
+    />
+  </head>
+
+  <body>
+    @@include('blocks/_top-info.html')
+    @@include('blocks/header.html')
+    <main class="main">
+      @@include('blocks/_hero.html')
+      @@include('blocks/_best.html')
+      @@include('blocks/_collection.html')
+    </main>
+    @@include('blocks/footer.html')
+    <script src="./js/index.bundle.js"></script>
+  </body>
+</html>
