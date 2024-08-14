@@ -1,7 +1,12 @@
 .footer {
   margin-top: 88px;
-  padding: 24px 140px;
+  padding: 24px;
   background-color: #000000;
+
+  @include mobile {
+    margin-top: 24px;
+    padding: 8px 20px;
+  }
 
   &__copyright {
     font-family: $font-family;

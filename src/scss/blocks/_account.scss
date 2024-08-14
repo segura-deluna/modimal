@@ -3,6 +3,10 @@
   align-items: center;
   gap: 24px;
 
+  @include tablet {
+    gap: 12px;
+  }
+
   a {
     display: inline-block;
     width: 100%;
@@ -11,5 +15,18 @@
 
   a:hover {
     background-color: $neutral-grayadadad;
+  }
+
+  &__menu {
+    display: none;
+    @include mobile {
+      display: block;
+    }
+  }
+
+  &__person {
+    @include mobile {
+      display: none;
+    }
   }
 }

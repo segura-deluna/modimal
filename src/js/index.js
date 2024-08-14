@@ -6,9 +6,16 @@ import 'swiper/css/bundle'
 
 // Initialize Swiper
 const cardSwiper = new Swiper('.swiper', {
-  slidesPerView: 3,
-  spaceBetween: 24,
+  slidesPerView: 2,
+  spaceBetween: 16,
   loop: true,
+
+  breakpoints: {
+    760: {
+      slidesPerView: 3,
+      spaceBetween: 24,
+    },
+  },
 
   pagination: {
     el: '.swiper-pagination',

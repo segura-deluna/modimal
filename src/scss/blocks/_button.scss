@@ -4,7 +4,6 @@ a.btn {
   width: 184px;
   height: 40px;
   background: $white;
-
   font-family: $font-family;
   font-weight: 400;
   font-size: 14px;
@@ -12,6 +11,15 @@ a.btn {
   justify-content: center;
   align-items: center;
   text-transform: capitalize;
-
   color: $black;
+  transition: all 0.3s ease-in;
+
+  &:hover {
+    background: $neutral-grayededed;
+  }
+
+  @include mobile {
+    width: fit-content;
+    padding: 8px 9px;
+  }
 }

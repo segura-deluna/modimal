@@ -4,11 +4,19 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 24px;
+
+    @include mobile {
+      margin-bottom: 8px;
+    }
   }
 
   &__btn {
     padding: 16px 0px 16px 16px;
     width: 102px;
     height: 40px;
+
+    @include mobile {
+      display: none;
+    }
   }
 }

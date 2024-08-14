@@ -10,6 +10,10 @@
     background-image: url('./../../img/hero/hero@2x.jpg');
   }
 
+  @include mobile {
+    background-position: 30% center;
+  }
+
   .container {
     height: 100%;
   }
@@ -31,9 +35,18 @@
     line-height: 180%;
     text-transform: capitalize;
     color: $black;
+
+    @include mobile {
+      max-width: 168px;
+      font-size: 20px;
+    }
   }
 
   &__btn {
     margin-bottom: 103px;
+
+    @include mobile {
+      margin-bottom: 16px;
+    }
   }
 }

@@ -14,8 +14,15 @@
           <li><a href="#">Sustainability</a></li>
         </ul>
       </nav>
-      <div class="header__account">
+      <div class="header__account header__account--first">
         <ul class="account">
+          <li class="account__menu">
+            <a href="#">
+              <svg class="icon icon--menu">
+              <use xlink:href="./img/svgsprite/sprite.symbol.svg#menu"></use>
+              </svg>
+            </a>
+          </li>
           <li>
             <a href="#">
               <svg class="icon icon--search">
@@ -23,13 +30,17 @@
               </svg>
             </a>
           </li>
-          <li>
+          <li class="account__person">
             <a href="#">
               <svg class="icon icon--person">
                 <use xlink:href="./img/svgsprite/sprite.symbol.svg#person"></use>
               </svg>
             </a>
           </li>
+        </ul>
+      </div>
+      <div class="header__account">
+        <ul class="account">
           <li>
             <a href="#">
               <svg class="icon icon--favorite">
@@ -47,11 +58,11 @@
         </ul>
       </div>
 
-      <div class="header__nav-btn">
-        <button class="mobile-nav-btn">
-          <div class="nav-icon"></div>
-        </button>
-      </div>
+<!--      <div class="header__nav-btn">-->
+<!--        <button class="mobile-nav-btn">-->
+<!--          <div class="nav-icon"></div>-->
+<!--        </button>-->
+<!--      </div>-->
 
     </div>
   </div>
