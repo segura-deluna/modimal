@@ -1,4 +1,6 @@
 .top-info {
+  position: relative;
+  z-index: 200;
   padding: 8px 0 7px;
   font-family: $font-family;
   font-weight: 600;

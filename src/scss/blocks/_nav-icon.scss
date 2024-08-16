@@ -2,20 +2,15 @@
 .mobile-nav-btn {
   --time: 0.1s;
 
-  --width: 40px;
-  --height: 30px;
+  --width: 18px;
+  --height: 12px;
 
-  --line-height: 4px;
-  --spacing: 6px;
+  --line-height: 2px;
+  --spacing: 3px;
 
-  --color: #000;
-  --radius: 4px;
+  --color: #0c0c0c;
+  --radius: 0;
 
-  /* Fixed height and width */
-  /* height: var(--height); */
-  /* width: var(--width); */
-
-  /* Dynamic height and width */
   height: calc(var(--line-height) * 3 + var(--spacing) * 2);
   width: var(--width);
 
@@ -82,9 +77,3 @@
   z-index: 999;
   // display: none;
 }
-
-// @media (max-width: 1000px) {
-// 	.mobile-nav-btn {
-// 		display: block;
-// 	}
-// }

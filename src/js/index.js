@@ -1,8 +1,8 @@
 // import Swiper bundle with all modules installed
-import Swiper from 'swiper/bundle'
+import Swiper from 'swiper/bundle';
 
 // import styles bundle
-import 'swiper/css/bundle'
+import 'swiper/css/bundle';
 
 // Initialize Swiper
 const cardSwiper = new Swiper('.swiper', {
@@ -21,8 +21,14 @@ const cardSwiper = new Swiper('.swiper', {
     el: '.swiper-pagination',
     clickable: true,
   },
-})
+});
 
 // Мобильная навигация
-import mobileNav from './modules/mobile-nav.js'
-mobileNav()
+import mobileNav from './modules/mobile-nav.js';
+
+mobileNav();
+
+//Accordion
+import accordion from './modules/accordion.js';
+
+accordion();
